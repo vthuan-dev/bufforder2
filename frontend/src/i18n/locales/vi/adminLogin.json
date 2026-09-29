@@ -1,5 +1,5 @@
 {
-  "title": "Ashford Admin",
+  "title": "Overstock Admin",
   "subtitle": "Đăng nhập để quản lý nền tảng",
   "username": "Tên đăng nhập",
   "usernamePlaceholder": "Nhập tên đăng nhập",
@@ -10,7 +10,7 @@
   "signIn": "Đăng nhập",
   "signingIn": "Đang đăng nhập...",
   "footer": "Bảo vệ bởi 2FA và bảo mật cấp doanh nghiệp",
-  "copyright": "© 2025 Ashford. Bảo lưu mọi quyền.",
+  "copyright": "© 2026 Overstock. Bảo lưu mọi quyền.",
   "errors": {
     "loginFailed": "Đăng nhập thất bại",
     "missingToken": "Đăng nhập thất bại: thiếu token",

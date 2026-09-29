@@ -83,7 +83,7 @@ export function HomePage({ }: HomePageProps) {
     <div className="bottom-nav-safe-pad">
       {/* Logo */}
       <div className="bg-gray-100 py-4 px-6 text-center">
-        <img src={logoImage} alt="Ashford" className="inline-block h-10 object-contain" />
+        <img src={logoImage} alt="Overstock" className="inline-block h-10 object-contain" />
       </div>
 
       {/* Video Advertisement */}

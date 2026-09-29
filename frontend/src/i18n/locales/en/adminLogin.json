@@ -1,5 +1,5 @@
 {
-  "title": "Ashford Admin",
+  "title": "Overstock Admin",
   "subtitle": "Sign in to manage your platform",
   "username": "Username",
   "usernamePlaceholder": "Enter your username",
@@ -10,7 +10,7 @@
   "signIn": "Sign In",
   "signingIn": "Signing in...",
   "footer": "Protected by 2FA and enterprise-grade security",
-  "copyright": "© 2025 Ashford. All rights reserved.",
+  "copyright": "© 2026 Overstock. All rights reserved.",
   "errors": {
     "loginFailed": "Login failed",
     "missingToken": "Login failed: missing token",

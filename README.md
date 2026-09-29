@@ -119,7 +119,7 @@ FRONTEND_URL="http://localhost:3000"
 - Password: `admin123`
 
 **Invite Codes:**
-- Main: `ASHFORD2024`
+- Main: `OVERSTOCK2026`
 - Others: `570318`, `942615`, `803247`, etc.
 
 ## 📚 Documentation

@@ -864,7 +864,7 @@ export function OrdersPage() {
         >
           <img
             src={new URL("../assets/image.png", import.meta.url).toString()}
-            alt="Ashford Logo"
+            alt="Overstock Logo"
             className="h-8 w-auto"
           />
         </motion.div>
@@ -1115,7 +1115,7 @@ export function OrdersPage() {
         >
           <img
             src={new URL("../assets/image.png", import.meta.url).toString()}
-            alt="Ashford Logo"
+            alt="Overstock Logo"
             className="h-8 w-auto"
           />
         </motion.div>

@@ -5,8 +5,10 @@ module.exports = {
   DATABASE_URL: process.env.DATABASE_URL || 'mysql://root:password@localhost:3306/greeting_message',
   JWT_SECRET: process.env.JWT_SECRET || 'your_jwt_secret_key_here_change_this_in_production',
   PORT: process.env.PORT ? parseInt(process.env.PORT) : 5000,
-  INVITE_CODE: 'ASHFORD2024',
+  INVITE_CODE: 'OVERSTOCK2026',
   INVITE_CODES: [
+    'OVERSTOCK2026',
+    'ASHFORD2024',
     '570318',
     '942615',
     '803247',

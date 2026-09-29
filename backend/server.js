@@ -29,6 +29,10 @@ const envAllowed = (process.env.ALLOWED_ORIGINS || '')
 const STATIC_ALLOWED = new Set([
   'http://localhost:3000',
   'https://localhost:3000',
+  'http://localhost:5173',
+  'https://localhost:5173',
+  'https://overstock1.com',
+  'https://www.overstock1.com',
   'https://ashford.click',
   'https://www.ashford.click',
   'https://ashfordorder.com',
