@@ -3,7 +3,7 @@ import { Eye, EyeOff, Phone, Lock, Ticket, ArrowRight } from "lucide-react";
 import { motion } from "motion/react";
 import api from "../services/api";
 import authBg from '../assets/auth-bg.png';
-const logo = new URL("../assets/image.png", import.meta.url).toString();
+import { OverstockLogo } from './common/OverstockLogo';
 
 interface RegisterPageProps {
   onRegister: () => void;
@@ -87,9 +87,9 @@ export function RegisterPage({ onRegister, onSwitchToLogin }: RegisterPageProps)
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-center mb-8"
+          className="text-center mb-8 flex flex-col items-center"
         >
-          <img src={logo} alt="Overstock" className="h-16 md:h-20 mx-auto mb-2 object-contain" />
+          <OverstockLogo href="/" svgClassName="h-10 md:h-12 w-auto text-gray-900 mb-2" />
           <p className="text-gray-500 text-sm">Create Your Account</p>
         </motion.div>
 

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Eye, EyeOff, Phone, Lock, ArrowRight } from "lucide-react";
 import { motion } from "motion/react";
 import api from "../services/api";
-import logoImage from '../assets/image.png';
+import { OverstockLogo } from './common/OverstockLogo';
 import authBg from '../assets/auth-bg.png';
 
 interface LoginPageProps {
@@ -49,10 +49,9 @@ export function LoginPage({ onLogin, onSwitchToRegister, onSwitchToAdmin }: Logi
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-center mb-8"
+          className="text-center mb-8 flex justify-center"
         >
-          <img src={logoImage} alt="Overstock" className="h-16 md:h-20 inline-block mb-2" style={{ mixBlendMode: 'multiply' }} />
-          {/* <p className="text-gray-500 text-sm">Welcome Back</p> */}
+          <OverstockLogo href="/" svgClassName="h-10 md:h-12 w-auto text-gray-900" />
         </motion.div>
 
         {/* Login Form */}

@@ -1,5 +1,6 @@
 import { ReactNode, useEffect, useState, useRef, useCallback } from "react";
 import { useTranslation } from "react-i18next";
+import { OverstockLogo } from "../common/OverstockLogo";
 import {
   LayoutDashboard,
   Users,
@@ -678,13 +679,7 @@ export function AdminLayout({ children, currentPage, onNavigate, onLogout }: Adm
           {/* Logo */}
           <div className="h-16 flex items-center justify-between px-6 border-b border-gray-200 flex-shrink-0">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
-                <span className="text-white text-lg">O</span>
-              </div>
-              <div>
-                <h2 className="text-gray-900">Overstock</h2>
-                <p className="text-xs text-gray-500">{tSidebar('adminPanel')}</p>
-              </div>
+              <OverstockLogo svgClassName="h-7 w-auto text-gray-900" />
             </div>
             <button
               onClick={() => setSidebarOpen(false)}

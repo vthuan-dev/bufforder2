@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from 'react';
 import { Crown, Lock } from 'lucide-react';
 import { motion } from 'motion/react';
 import { useTranslation } from 'react-i18next';
-const logoImage = new URL('../assets/image.png', import.meta.url).toString();
+import { OverstockLogo } from './common/OverstockLogo';
 const videoAds = new URL('../assets/video/ads.mp4', import.meta.url).toString();
 import { vipThemes, VipTheme, VipThemeKey, normalizeVipId } from '../constants/vipThemes';
 import api from '../services/api';
@@ -82,8 +82,8 @@ export function HomePage({ }: HomePageProps) {
   return (
     <div className="bottom-nav-safe-pad">
       {/* Logo */}
-      <div className="bg-gray-100 py-4 px-6 text-center">
-        <img src={logoImage} alt="Overstock" className="inline-block h-10 object-contain" />
+      <div className="bg-white py-3.5 px-6 flex items-center justify-center border-b border-gray-100 shadow-sm">
+        <OverstockLogo href="/" svgClassName="h-7 md:h-8 w-auto text-gray-900" />
       </div>
 
       {/* Video Advertisement */}

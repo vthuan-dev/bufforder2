@@ -3,6 +3,7 @@ import { TrendingUp, Wallet, CheckCircle, Target, ShoppingBag, Package, X, Spark
 import { motion, AnimatePresence } from "motion/react";
 import { useTranslation } from "react-i18next";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import { OverstockLogo } from "./common/OverstockLogo";
 import { toast } from "sonner";
 import api from "../services/api";
 const imgEarned = new URL("../assets/orders/Earned.png", import.meta.url).toString();
@@ -860,13 +861,9 @@ export function OrdersPage() {
         <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
-          className="flex items-center justify-center"
+          className="flex items-center justify-center py-1"
         >
-          <img
-            src={new URL("../assets/image.png", import.meta.url).toString()}
-            alt="Overstock Logo"
-            className="h-8 w-auto"
-          />
+          <OverstockLogo href="/" svgClassName="h-7 w-auto text-gray-900" />
         </motion.div>
       </div>
 
@@ -1111,13 +1108,9 @@ export function OrdersPage() {
         <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
-          className="flex items-center justify-center"
+          className="flex items-center justify-center py-1"
         >
-          <img
-            src={new URL("../assets/image.png", import.meta.url).toString()}
-            alt="Overstock Logo"
-            className="h-8 w-auto"
-          />
+          <OverstockLogo href="/" svgClassName="h-7 w-auto text-gray-900" />
         </motion.div>
       </div>
 
