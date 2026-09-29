@@ -131,7 +131,7 @@ model Admin {
   lastLogin   DateTime?
   createdAt   DateTime  @default(now())
   updatedAt   DateTime  @updatedAt
-  avatar      String?   @default("") @db.Text
+  avatar      String?   @db.Text
 
   @@map("admin")
 }
@@ -164,8 +164,8 @@ model ChatMessage {
   threadId          String
   senderType        String
   senderId          String
-  text              String?    @default("") @db.Text
-  imageUrl          String?    @default("") @db.Text
+  text              String?    @db.Text
+  imageUrl          String?    @db.Text
   readByAdmin       Boolean    @default(false)
   readByUser        Boolean    @default(false)
   isDeletedForUser  Boolean    @default(false)
