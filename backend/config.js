@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = {
   // MySQL (Prisma)
   DATABASE_URL: process.env.DATABASE_URL || 'mysql://root:password@localhost:3306/greeting_message',
